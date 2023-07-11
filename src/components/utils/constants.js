@@ -11,13 +11,15 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
+import AlbumIcon from '@mui/icons-material/Album';
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
+  { name: 'Kanye West', icon: <AlbumIcon />, },
+  { name: 'Arsenal', icon: <SportsSoccerIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
   { name: 'NextJS', icon: <CodeIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
