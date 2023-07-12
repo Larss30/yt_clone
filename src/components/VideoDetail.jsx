@@ -47,7 +47,7 @@ const VideoDetail = () => {
           </Box>
         </Box>
         <Box px={2} py={{md: 1, xs: 5}} justifyContent='center' alignItems='center'>
-          {videos ? <Videos videos={videos} direction='column'/> : <Typography variant='h6' color='#fff'>Loading...</Typography>}
+          {videos ? <Videos videos={videos} direction='column' justifyContent='center'/> : <Typography variant='h6' color='#fff' justifyContent='center'>Loading...</Typography>}
         </Box>
       </Stack>
     </Box>
